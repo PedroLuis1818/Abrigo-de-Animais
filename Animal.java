@@ -1,4 +1,4 @@
-public abstract class Animal {
+public abstract class AbstractAnimal {
 
     public String especie, nome, genero, raca;
     public double idade, peso;
@@ -13,3 +13,4 @@ public abstract class Animal {
     }
 
 }
+
