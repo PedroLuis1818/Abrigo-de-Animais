@@ -10,19 +10,19 @@ public class Main {
 
         System.out.println("|ABRIGO DE ANIMAIS|");
 
-        System.out.println("Espécie do animal");
+        System.out.println("Digite a espécie do animal (cachorro/gato/ave):");
         String especie = input.nextLine();
 
-        System.out.println("Nome do animal");
+        System.out.println("Digite o nome do animal:");
         String nome = input.nextLine();
 
-        System.out.println("Gênero do animal");
+        System.out.println("Digite o gênero do animal:");
         String genero = input.nextLine();
 
-        System.out.println("Raça do animal");
+        System.out.println("Digite a raça do animal:");
         String raça = input.nextLine();
 
-        System.out.println("Idade do animal");
+        System.out.println("Digite a idade do animal:");
         int idade = input.nextInt();
 
         System.out.println("Peso do animal (kg)");
@@ -30,7 +30,7 @@ public class Main {
 
         input.nextLine();
 
-        System.out.println("Estado de saúde do animal");
+        System.out.println("Digite o estado de saúde do animal:");
         String saude = input.nextLine();
 
 
