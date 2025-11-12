@@ -34,7 +34,7 @@ public class Main {
         String saude = input.nextLine();
 
 
-        Animal a0 = AnimalFactory.CriarAnimal(especie, nome, genero, raça, idade, peso);//Instânciação do animal
+        AbstractAnimal a0 = AnimalFactory.CriarAnimal(especie, nome, genero, raça, idade, peso);//Instânciação do animal
         a0.setSaude(saude);
 
         if (a0 != null){
