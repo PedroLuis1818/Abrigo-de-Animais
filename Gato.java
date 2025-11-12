@@ -1,4 +1,4 @@
-public class Gato extends Animal{
+public class Gato extends AbstractAnimal{
 
     public Gato(){//Construtor Vazio
     }
@@ -12,3 +12,4 @@ public class Gato extends Animal{
         this.peso = peso;
     }
 }
+
