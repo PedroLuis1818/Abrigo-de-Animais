@@ -1,4 +1,4 @@
-public class Ave extends AbstractAnimal{
+public class Ave extends Animal{
 
     public Ave(){//Construtor Vazio
     }
@@ -12,4 +12,3 @@ public class Ave extends AbstractAnimal{
         this.peso = peso;
     }
 }
-

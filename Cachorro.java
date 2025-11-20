@@ -1,4 +1,4 @@
-public class Cachorro extends AbstractAnimal {
+public class Cachorro extends Animal {
 
     public Cachorro(){//Construtor Vazio
     }
@@ -13,4 +13,3 @@ public class Cachorro extends AbstractAnimal {
     }
 
 }
-
